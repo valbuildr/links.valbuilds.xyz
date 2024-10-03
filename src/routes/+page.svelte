@@ -19,7 +19,7 @@
     <Button id="mastodonbutton" color="light" href="https://wetdry.world/@valbuildr"><MastodonSolid class="w-6 h-6" /></Button>
     <Button color="light" href="https://github.com/valbuildr"><GithubSolid class="w-6 h-6" /></Button>
 
-    <Button color="light" href="/more" class="col-span-5">See more</Button>
+    <!-- <Button color="light" href="/more" class="col-span-5">See more</Button> -->
 </div>
 
 <Popover class="w-64 text-sm font-light" title="This is supposed to be the Mastodon logo." triggeredBy="#mastodonbutton">But I can't seem to get the icon to work. If you have a fix, please do get in touch.<br />Click the button to visit my profile on the Fediverse.</Popover>
