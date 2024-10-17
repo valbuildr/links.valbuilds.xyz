@@ -1,1 +1,0 @@
-<p class="dark:text-white">why are you even here, theres nothing here</p>
