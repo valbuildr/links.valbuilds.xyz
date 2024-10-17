@@ -14,7 +14,7 @@
     <div class="flex flex-col items-start pb-4">
         <Avatar size="lg" src="/pfp.png" />
         <h5 class="mt-2 mb-1 text-xl font-medium text-gray-900 dark:text-white">valbuildr</h5>
-        <span class="text-sm text-gray-500 dark:text-gray-400">a person that makes things on the internet sometimes.<br /><br /><i>banner by <a href="https://twitter.com/starsleeps" class="hover:underline">starsleeps</a></i></span>
+        <span class="text-sm text-gray-500 dark:text-gray-400">a person that makes things on the internet sometimes.<br /><br /><i>banner by <a href="https://starsleeps.carrd.co/" class="hover:underline">starsleeps</a></i></span>
     </div>
 </Card>
 
