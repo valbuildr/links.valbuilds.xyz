@@ -21,7 +21,7 @@
 <div class="grid grid-cols-5 gap-3">
     <Button color="light" href="https://www.youtube.com/@valbuildr"><YoutubeSolid class="w-6 h-6" /></Button>
     <Button color="light" href="https://discord.gg/UKVMvUG2h9"><DiscordSolid class="w-6 h-6" /></Button>
-    <Button id="blueskybutton" color="light" href="https://bsky.app/profile/valbuildr.bsky.social"><BlueskySolid class="w-6 h-6" /></Button>
+    <Button id="blueskybutton" color="light" href="https://bsky.app/profile/valbuilds.xyz"><BlueskySolid class="w-6 h-6" /></Button>
     <Button id="mastodonbutton" color="light" href="https://wetdry.world/@valbuildr"><MastodonSolid class="w-6 h-6" /></Button>
     <Button color="light" href="https://github.com/valbuildr"><GithubSolid class="w-6 h-6" /></Button>
 
