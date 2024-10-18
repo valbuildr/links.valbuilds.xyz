@@ -16,7 +16,7 @@
 <Alert color="yellow" class="text-center w-full max-w-sm">
     <span class="font-medium">I no longer use Twitter!</span>
     Any account claiming to be me on Twitter is fake, do not interact wth them.<br />
-    <span class="text-gray-700 dark:text-gray-300">The platforms linked below are my official ones. :)</span>
+    <span class="text-gray-700 dark:text-gray-300">The platforms linked below are my only official ones. :)</span>
 </Alert>
 
 <Card img="/banner.png" padding="md">
