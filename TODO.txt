@@ -1,3 +1,1 @@
 - [ ] Apple touch icon
-- [ ] Fix Mastodon icon
-- [ ] Fix favicon (might not even be an issue)
