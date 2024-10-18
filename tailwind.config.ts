@@ -22,6 +22,9 @@ export default {
           900: '#A5371B'
         }
       }
+    },
+    fontFamily: {
+      sans: ['Instrument Sans', 'sans-serif']
     }
 	},
 

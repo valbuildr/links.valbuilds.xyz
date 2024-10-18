@@ -1,7 +1,10 @@
 <head>
+    <!-- title, description, and image for embeds -->
     <title>valentine's links</title>
     <meta name="og:description" content="valbuildr's official platforms." />
     <meta name="og:image" content="/linksvalbuildsxyz.png" />
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet" />
 </head>
 
 <script>
