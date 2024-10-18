@@ -1,3 +1,9 @@
+<head>
+    <title>Valentine's Links</title>
+    <meta name="twitter:description" content="Cool description" />
+    <meta name="twitter:image" content="/linksvalbuildsxyz.png" />
+</head>
+
 <script>
     import MastodonSolid from '$lib/MastodonSolid.svelte';
     import BlueskySolid from '$lib/BlueskySolid.svelte';
