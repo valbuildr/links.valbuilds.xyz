@@ -1,7 +1,7 @@
 <head>
     <title>valentine's links</title>
-    <meta name="twitter:description" content="valbuildr's official platforms." />
-    <meta name="twitter:image" content="/linksvalbuildsxyz.png" />
+    <meta name="og:description" content="valbuildr's official platforms." />
+    <meta name="og:image" content="/linksvalbuildsxyz.png" />
 </head>
 
 <script>
