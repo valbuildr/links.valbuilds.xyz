@@ -38,7 +38,7 @@
 </Alert>
 
 <div class="gap-3 flex flex-col w-full max-w-sm">
-    <Button color="light" href="https://www.youtube.com/@valbuildr" class="hover:text-[#FF0000] hover:transition-colors duration-300">
+    <Button color="light" href="https://www.youtube.com/@valbuildr" target="_blank" class="hover:text-[#FF0000] hover:transition-colors duration-300">
         <div class="grid grid-cols-5 gap-3 w-full items-center">
             <YoutubeSolid class="w-6 h-6" />
             <div class="col-span-4 text-gray-500 dark:text-gray-100">
@@ -46,7 +46,7 @@
             </div>
         </div>
     </Button>
-    <Button color="light" href="https://discord.gg/UKVMvUG2h9" class="hover:text-[#5865F2] hover:transition-colors duration-300">
+    <Button color="light" href="https://discord.gg/UKVMvUG2h9" target="_blank" class="hover:text-[#5865F2] hover:transition-colors duration-300">
         <div class="grid grid-cols-5 gap-3 w-full items-center">
             <DiscordSolid class="w-6 h-6" />
             <div class="col-span-4 text-gray-500 dark:text-gray-100">
@@ -54,7 +54,7 @@
             </div>
         </div>
     </Button>
-    <Button color="light" href="https://bsky.app/profile/valbuilds.xyz" class="hover:text-[#1185fE] hover:transition-colors duration-300">
+    <Button color="light" href="https://bsky.app/profile/valbuilds.xyz" target="_blank" class="hover:text-[#1185fE] hover:transition-colors duration-300">
         <div class="grid grid-cols-5 gap-3 w-full items-center">
             <BlueskySolid class="w-6 h-6" />
             <div class="col-span-4 text-gray-500 dark:text-gray-100">
@@ -62,7 +62,7 @@
             </div>
         </div>
     </Button>
-    <Button color="light" href="https://wetdry.world/@valbuildr" class="hover:text-[#6364FF] hover:transition-colors duration-300">
+    <Button color="light" href="https://wetdry.world/@valbuildr" target="_blank" class="hover:text-[#6364FF] hover:transition-colors duration-300">
         <div class="grid grid-cols-5 gap-3 w-full items-center">
             <MastodonSolid class="w-6 h-6" />
             <div class="col-span-4 text-gray-500 dark:text-gray-100">
@@ -70,7 +70,7 @@
             </div>
         </div>
     </Button>
-    <Button color="light" href="https://github.com/valbuildr" class="hover:light:text-[#1A1F24] hover:transition-colors duration-300">
+    <Button color="light" href="https://github.com/valbuildr" target="_blank" class="hover:light:text-[#1A1F24] hover:transition-colors duration-300">
         <div class="grid grid-cols-5 gap-3 w-full items-center">
             <GithubSolid class="w-6 h-6" />
             <div class="col-span-4 text-gray-500 dark:text-gray-100">
@@ -78,7 +78,7 @@
             </div>
         </div>
     </Button>
-    <Button color="light" href="https://tiktok.com/@valbuildr" class="hover:transition-colors duration-300">
+    <Button color="light" href="https://tiktok.com/@valbuildr" target="_blank" class="hover:transition-colors duration-300">
         <div class="grid grid-cols-5 gap-3 w-full items-center">
             <TikTokSolid class="w-6 h-6" />
             <div class="col-span-4 text-gray-500 dark:text-gray-100">
@@ -86,7 +86,7 @@
             </div>
         </div>
     </Button>
-    <Button color="light" href="https://steamcommunity.com/id/valbuilds" class="hover:light:text-[#231F20] hover:transition-colors duration-300">
+    <Button color="light" href="https://steamcommunity.com/id/valbuilds" target="_blank" class="hover:light:text-[#231F20] hover:transition-colors duration-300">
         <div class="grid grid-cols-5 gap-3 w-full items-center">
             <SteamSolid class="w-6 h-6" />
             <div class="col-span-4 text-gray-500 dark:text-gray-100">
@@ -94,7 +94,7 @@
             </div>
         </div>
     </Button>
-    <Button color="light" href="https://en.pronouns.page/@valbuilded" class="hover:text-[#c71585] hover:transition-colors duration-300">
+    <Button color="light" href="https://en.pronouns.page/@valbuilded" target="_blank" class="hover:text-[#c71585] hover:transition-colors duration-300">
         <div class="grid grid-cols-5 gap-3 w-full items-center">
             <PronounsPageSolid class="w-6 h-6" />
             <div class="col-span-4 text-gray-500 dark:text-gray-100">
@@ -102,7 +102,7 @@
             </div>
         </div>
     </Button>
-    <Button color="light" href="https://www.twitch.tv/valbuildr" class="hover:text-[#9146FF] hover:transition-colors duration-300">
+    <Button color="light" href="https://www.twitch.tv/valbuildr" target="_blank" class="hover:text-[#9146FF] hover:transition-colors duration-300">
         <div class="grid grid-cols-5 gap-3 w-full items-center">
             <TwitchSolid class="w-6 h-6" />
             <div class="col-span-4 text-gray-500 dark:text-gray-100">
@@ -110,7 +110,7 @@
             </div>
         </div>
     </Button>
-    <Button disabled color="light" href="https://www.valbuilds.xyz/" class="hover:text-violet-500 hover:transition-colors duration-300">
+    <Button disabled color="light" href="https://www.valbuilds.xyz/" target="_blank" class="hover:text-violet-500 hover:transition-colors duration-300">
         <div class="grid grid-cols-5 gap-3 w-full items-center">
             <GlobeSolid class="w-6 h-6" />
             <div class="col-span-4 text-gray-500 dark:text-gray-100">

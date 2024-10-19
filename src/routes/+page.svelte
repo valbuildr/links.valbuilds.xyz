@@ -32,15 +32,15 @@
 </Alert>
 
 <div class="grid grid-cols-5 gap-3 w-full max-w-sm">
-    <Button color="light" href="https://www.youtube.com/@valbuildr" class="hover:text-[#FF0000] hover:transition-colors duration-300"><YoutubeSolid class="w-6 h-6" /></Button>
-    <Button color="light" href="https://discord.gg/UKVMvUG2h9" class="hover:text-[#5865F2] hover:transition-colors duration-300"><DiscordSolid class="w-6 h-6" /></Button>
-    <Button color="light" href="https://bsky.app/profile/valbuilds.xyz" class="hover:text-[#1185fE] hover:transition-colors duration-300"><BlueskySolid class="w-6 h-6" /></Button>
-    <Button color="light" href="https://wetdry.world/@valbuildr" class="hover:text-[#6364FF] hover:transition-colors duration-300"><MastodonSolid class="w-6 h-6" /></Button>
-    <Button color="light" href="https://github.com/valbuildr" class="hover:light:text-[#1A1F24] hover:transition-colors duration-300"><GithubSolid class="w-6 h-6" /></Button>
+    <Button color="light" href="https://www.youtube.com/@valbuildr" target="_blank" class="hover:text-[#FF0000] hover:transition-colors duration-300"><YoutubeSolid class="w-6 h-6" /></Button>
+    <Button color="light" href="https://discord.gg/UKVMvUG2h9" target="_blank" class="hover:text-[#5865F2] hover:transition-colors duration-300"><DiscordSolid class="w-6 h-6" /></Button>
+    <Button color="light" href="https://bsky.app/profile/valbuilds.xyz" target="_blank" class="hover:text-[#1185fE] hover:transition-colors duration-300"><BlueskySolid class="w-6 h-6" /></Button>
+    <Button color="light" href="https://wetdry.world/@valbuildr" target="_blank" class="hover:text-[#6364FF] hover:transition-colors duration-300"><MastodonSolid class="w-6 h-6" /></Button>
+    <Button color="light" href="https://github.com/valbuildr" target="_blank" class="hover:light:text-[#1A1F24] hover:transition-colors duration-300"><GithubSolid class="w-6 h-6" /></Button>
 
-    <Button color="light" href="https://tiktok.com/@valbuildr" class="hover:transition-colors duration-300"><TikTokSolid class="w-6 h-6" /></Button>
-    <Button color="light" href="https://steamcommunity.com/id/valbuilds" class="hover:light:text-[#231F20] hover:transition-colors duration-300"><SteamSolid class="w-6 h-6" /></Button>
-    <Button color="light" href="https://en.pronouns.page/@valbuilded" class="hover:text-[#c71585] hover:transition-colors duration-300"><PronounsPageSolid class="w-6 h-6" /></Button>
-    <Button color="light" href="https://www.twitch.tv/valbuildr" class="hover:text-[#9146FF] hover:transition-colors duration-300"><TwitchSolid class="w-6 h-6" /></Button>
-    <Button color="light" href="https://www.valbuilds.xyz/" disabled class="hover:text-violet-500 hover:transition-colors duration-300"><GlobeSolid class="w-6 h-6" /></Button>
+    <Button color="light" href="https://tiktok.com/@valbuildr" target="_blank" class="hover:transition-colors duration-300"><TikTokSolid class="w-6 h-6" /></Button>
+    <Button color="light" href="https://steamcommunity.com/id/valbuilds" target="_blank" class="hover:light:text-[#231F20] hover:transition-colors duration-300"><SteamSolid class="w-6 h-6" /></Button>
+    <Button color="light" href="https://en.pronouns.page/@valbuilded" target="_blank" class="hover:text-[#c71585] hover:transition-colors duration-300"><PronounsPageSolid class="w-6 h-6" /></Button>
+    <Button color="light" href="https://www.twitch.tv/valbuildr" target="_blank" class="hover:text-[#9146FF] hover:transition-colors duration-300"><TwitchSolid class="w-6 h-6" /></Button>
+    <Button color="light" href="https://www.valbuilds.xyz/" target="_blank" disabled class="hover:text-violet-500 hover:transition-colors duration-300"><GlobeSolid class="w-6 h-6" /></Button>
 </div>
