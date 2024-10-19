@@ -11,9 +11,9 @@
 </head>
 
 <script>
-    import { MastodonSolid, BlueskySolid, TikTokSolid, SteamSolid, PronounsPageSolid } from '$lib';
+    import { MastodonSolid, BlueskySolid, TikTokSolid, SteamSolid, PronounsPageSolid, TwitchSolid } from '$lib';
     import { Card, Avatar, Button, Alert } from 'flowbite-svelte';
-    import { YoutubeSolid, DiscordSolid, GithubSolid, GlobeSolid, FlagSolid, TwitterSolid } from 'flowbite-svelte-icons';
+    import { YoutubeSolid, DiscordSolid, GithubSolid, GlobeSolid, TwitterSolid } from 'flowbite-svelte-icons';
 </script>
 
 <Card img="/banner.png" padding="md">
@@ -41,6 +41,6 @@
     <Button color="light" href="https://tiktok.com/@valbuildr"><TikTokSolid class="w-6 h-6" /></Button>
     <Button color="light" href="https://steamcommunity.com/id/valbuilds" class="hover:light:text-[#231F20]"><SteamSolid class="w-6 h-6" /></Button>
     <Button color="light" href="https://en.pronouns.page/@valbuilded" class="hover:text-[#c71585]"><PronounsPageSolid class="w-6 h-6" /></Button>
-    <Button color="light" href="https://valbuildr.github.io/gaytest/" class="hover:text-violet-500"><FlagSolid class="w-6 h-6" /></Button>
+    <Button color="light" href="https://www.twitch.tv/valbuildr" class="hover:text-[#9146FF]"><TwitchSolid class="w-6 h-6" /></Button>
     <Button color="light" href="https://www.valbuilds.xyz/" disabled class="hover:text-violet-500"><GlobeSolid class="w-6 h-6" /></Button>
 </div>

@@ -11,9 +11,9 @@
 </head>
 
 <script>
-    import { MastodonSolid, BlueskySolid, TikTokSolid, SteamSolid, PronounsPageSolid } from '$lib';
+    import { MastodonSolid, BlueskySolid, TikTokSolid, SteamSolid, PronounsPageSolid, TwitchSolid } from '$lib';
     import { Card, Avatar, Button, Alert } from 'flowbite-svelte';
-    import { YoutubeSolid, DiscordSolid, GithubSolid, GlobeSolid, FlagSolid, TwitterSolid } from 'flowbite-svelte-icons';
+    import { YoutubeSolid, DiscordSolid, GithubSolid, GlobeSolid, TwitterSolid } from 'flowbite-svelte-icons';
 </script>
 
 <Alert color="blue" class="w-full max-w-sm">
@@ -102,11 +102,11 @@
             </div>
         </div>
     </Button>
-    <Button color="light" href="https://valbuildr.github.io/gaytest/" class="hover:text-violet-500">
+    <Button color="light" href="https://www.twitch.tv/valbuildr" class="hover:text-[#9146FF]">
         <div class="grid grid-cols-5 gap-3 w-full items-center">
-            <FlagSolid class="w-6 h-6" />
+            <TwitchSolid class="w-6 h-6" />
             <div class="col-span-4 text-gray-500 dark:text-gray-100">
-                <p>Gay test</p>
+                <p>Twitch (NEW SCHEDULE)</p>
             </div>
         </div>
     </Button>
