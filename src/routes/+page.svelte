@@ -13,11 +13,6 @@
 <script>
     import { MastodonSolid, BlueskySolid, TikTokSolid, SteamSolid, PronounsPageSolid } from '$lib';
     import { Card, Avatar, Button, Alert } from 'flowbite-svelte';
-<Alert color="yellow" class="text-center w-full max-w-sm">
-    <span class="font-medium">I no longer use Twitter!</span>
-    Any account claiming to be me on Twitter is fake, do not interact wth them.<br />
-    <span class="text-gray-700 dark:text-gray-300">The platforms linked below are my only official ones. :)</span>
-</Alert>
     import { YoutubeSolid, DiscordSolid, GithubSolid, GlobeSolid, FlagSolid, TwitterSolid } from 'flowbite-svelte-icons';
 </script>
 
@@ -37,4 +32,9 @@
     <Button color="light" href="https://wetdry.world/@valbuildr"><MastodonSolid class="w-6 h-6" /></Button>
     <Button color="light" href="https://github.com/valbuildr"><GithubSolid class="w-6 h-6" /></Button>
     <Button color="light" href="/more" class="col-span-5"><TikTokSolid class="w-6 h-6" /></Button>
+<Alert color="yellow" class="w-full max-w-sm">
+    <TwitterSolid slot="icon" class="w-5 h-5" />
+    <span class="font-bold">I no longer use Twitter!</span>
+    Any account claiming to be me on Twitter is fake, do not interact wth them.<br />
+</Alert>
 </div>
