@@ -1,0 +1,2 @@
+- [ ] Reduce dependency on flowbite-svelte, for better customizability.
+- [ ] Animations!
