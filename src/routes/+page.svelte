@@ -11,19 +11,15 @@
 </head>
 
 <script>
-    // import MastodonSolid from '$lib/MastodonSolid.svelte';
-    // import BlueskySolid from '$lib/BlueskySolid.svelte';
-    // import TikTokSolid from '$lib/TikTokSolid.svelte';
-    import { MastodonSolid, BlueskySolid, TikTokSolid } from '$lib';
+    import { MastodonSolid, BlueskySolid, TikTokSolid, SteamSolid, PronounsPageSolid } from '$lib';
     import { Card, Avatar, Button, Alert } from 'flowbite-svelte';
-    import { YoutubeSolid, DiscordSolid, GithubSolid } from 'flowbite-svelte-icons';
-  </script>
-
 <Alert color="yellow" class="text-center w-full max-w-sm">
     <span class="font-medium">I no longer use Twitter!</span>
     Any account claiming to be me on Twitter is fake, do not interact wth them.<br />
     <span class="text-gray-700 dark:text-gray-300">The platforms linked below are my only official ones. :)</span>
 </Alert>
+    import { YoutubeSolid, DiscordSolid, GithubSolid, GlobeSolid, FlagSolid, TwitterSolid } from 'flowbite-svelte-icons';
+</script>
 
 <Card img="/banner.png" padding="md">
     <div class="flex flex-col items-start pb-4">
