@@ -20,7 +20,7 @@
     <div class="flex flex-col items-start pb-4">
         <Avatar size="lg" src="/pfp.png" />
         <h5 class="mt-2 text-xl font-medium text-gray-900 dark:text-white">Valentine</h5>
-        <h6 class="text-md font-semibold text-gray-700 dark:text-gray-300">valbuildr • she/they</h6>
+        <h6 class="text-md font-semibold text-gray-700 dark:text-gray-300">valbuildr • <a href="https://en.pronouns.page/@valbuilded" title="Click to go to my pronouns.page card.">she/they</a></h6>
         <span class="mt-1 text-sm text-gray-500 dark:text-gray-100">a person that makes things on the internet sometimes.<br /><br /><i>banner by <a href="https://starsleeps.carrd.co/" class="hover:underline">starsleeps</a></i></span>
     </div>
 </Card>
