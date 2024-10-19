@@ -25,16 +25,22 @@
     </div>
 </Card>
 
-<div class="grid grid-cols-5 gap-3">
-    <Button color="light" href="https://www.youtube.com/@valbuildr"><YoutubeSolid class="w-6 h-6" /></Button>
-    <Button color="light" href="https://discord.gg/UKVMvUG2h9"><DiscordSolid class="w-6 h-6" /></Button>
-    <Button color="light" href="https://bsky.app/profile/valbuilds.xyz"><BlueskySolid class="w-6 h-6" /></Button>
-    <Button color="light" href="https://wetdry.world/@valbuildr"><MastodonSolid class="w-6 h-6" /></Button>
-    <Button color="light" href="https://github.com/valbuildr"><GithubSolid class="w-6 h-6" /></Button>
-    <Button color="light" href="/more" class="col-span-5"><TikTokSolid class="w-6 h-6" /></Button>
 <Alert color="yellow" class="w-full max-w-sm">
     <TwitterSolid slot="icon" class="w-5 h-5" />
     <span class="font-bold">I no longer use Twitter!</span>
     Any account claiming to be me on Twitter is fake, do not interact wth them.<br />
 </Alert>
+
+<div class="grid grid-cols-5 gap-3 w-full max-w-sm">
+    <Button color="light" href="https://www.youtube.com/@valbuildr" class="hover:text-[#FF0000]"><YoutubeSolid class="w-6 h-6" /></Button>
+    <Button color="light" href="https://discord.gg/UKVMvUG2h9" class="hover:text-[#5865F2]"><DiscordSolid class="w-6 h-6" /></Button>
+    <Button color="light" href="https://bsky.app/profile/valbuilds.xyz" class="hover:text-[#1185fE]"><BlueskySolid class="w-6 h-6" /></Button>
+    <Button color="light" href="https://wetdry.world/@valbuildr" class="hover:text-[#6364FF]"><MastodonSolid class="w-6 h-6" /></Button>
+    <Button color="light" href="https://github.com/valbuildr" class="hover:light:text-[#1A1F24]"><GithubSolid class="w-6 h-6" /></Button>
+
+    <Button color="light" href="https://tiktok.com/@valbuildr"><TikTokSolid class="w-6 h-6" /></Button>
+    <Button color="light" href="https://steamcommunity.com/id/valbuilds" class="hover:light:text-[#231F20]"><SteamSolid class="w-6 h-6" /></Button>
+    <Button color="light" href="https://en.pronouns.page/@valbuilded" class="hover:text-[#c71585]"><PronounsPageSolid class="w-6 h-6" /></Button>
+    <Button color="light" href="https://valbuildr.github.io/gaytest/" class="hover:text-violet-500"><FlagSolid class="w-6 h-6" /></Button>
+    <Button color="light" href="https://www.valbuilds.xyz/" disabled class="hover:text-violet-500"><GlobeSolid class="w-6 h-6" /></Button>
 </div>
