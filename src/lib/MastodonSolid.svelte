@@ -52,7 +52,7 @@
     } else {
       hasDescription = false;
     }
-    export let ariaLabel = 'apple solid';
+    export let ariaLabel = 'mastodon solid';
   </script>
   
   {#if withEvents}
