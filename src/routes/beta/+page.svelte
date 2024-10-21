@@ -38,83 +38,83 @@
 </Alert>
 
 <div class="gap-3 flex flex-col w-full max-w-sm">
-    <Button color="light" href="https://www.youtube.com/@valbuildr" target="_blank" class="hover:text-[#FF0000] hover:transition-colors duration-300">
+    <Button color="light" title="Youtube Channel" href="/youtube" target="_blank" class="hover:text-[#FF0000] hover:transition-colors duration-300">
         <div class="grid grid-cols-5 gap-3 w-full items-center">
             <YoutubeSolid class="w-6 h-6" />
             <div class="col-span-4 text-gray-500 dark:text-gray-100">
-                <p>Youtube</p>
+                <p>Youtube Channel</p>
             </div>
         </div>
     </Button>
-    <Button color="light" href="https://discord.gg/UKVMvUG2h9" target="_blank" class="hover:text-[#5865F2] hover:transition-colors duration-300">
+    <Button color="light" title="Discord Server" href="/discord" target="_blank" class="hover:text-[#5865F2] hover:transition-colors duration-300">
         <div class="grid grid-cols-5 gap-3 w-full items-center">
             <DiscordSolid class="w-6 h-6" />
             <div class="col-span-4 text-gray-500 dark:text-gray-100">
-                <p>Discord server (blobfox forest)</p>
+                <p>Discord Server</p>
             </div>
         </div>
     </Button>
-    <Button color="light" href="https://bsky.app/profile/valbuilds.xyz" target="_blank" class="hover:text-[#1185fE] hover:transition-colors duration-300">
+    <Button color="light" title="Bluesky Profile" href="/bluesky" target="_blank" class="hover:text-[#1185fE] hover:transition-colors duration-300">
         <div class="grid grid-cols-5 gap-3 w-full items-center">
             <BlueskySolid class="w-6 h-6" />
             <div class="col-span-4 text-gray-500 dark:text-gray-100">
-                <p>Bluesky (no more twitter)</p>
+                <p>Bluesky Profile</p>
             </div>
         </div>
     </Button>
-    <Button color="light" href="https://wetdry.world/@valbuildr" target="_blank" class="hover:text-[#6364FF] hover:transition-colors duration-300">
+    <Button color="light" title="Mastodon/Fedi Profile" href="/fedi" target="_blank" class="hover:text-[#6364FF] hover:transition-colors duration-300">
         <div class="grid grid-cols-5 gap-3 w-full items-center">
             <MastodonSolid class="w-6 h-6" />
             <div class="col-span-4 text-gray-500 dark:text-gray-100">
-                <p>Fedi/Mastodon (wetdry.world)</p>
+                <p>Mastodon/Fedi Profile</p>
             </div>
         </div>
     </Button>
-    <Button color="light" href="https://github.com/valbuildr" target="_blank" class="hover:light:text-[#1A1F24] hover:transition-colors duration-300">
+    <Button color="light" title="Github Profile" href="/github" target="_blank" class="hover:light:text-[#1A1F24] hover:transition-colors duration-300">
         <div class="grid grid-cols-5 gap-3 w-full items-center">
             <GithubSolid class="w-6 h-6" />
             <div class="col-span-4 text-gray-500 dark:text-gray-100">
-                <p>Github</p>
+                <p>Github Profile</p>
             </div>
         </div>
     </Button>
-    <Button color="light" href="https://tiktok.com/@valbuildr" target="_blank" class="hover:transition-colors duration-300">
+    <Button color="light" title="TikTok Profile" href="/tiktok" target="_blank" class="hover:transition-colors duration-300">
         <div class="grid grid-cols-5 gap-3 w-full items-center">
             <TikTokSolid class="w-6 h-6" />
             <div class="col-span-4 text-gray-500 dark:text-gray-100">
-                <p>TikTok (i rarely post)</p>
+                <p>TikTok Profile</p>
             </div>
         </div>
     </Button>
-    <Button color="light" href="https://steamcommunity.com/id/valbuilds" target="_blank" class="hover:light:text-[#231F20] hover:transition-colors duration-300">
+    <Button color="light" title="Steam Profile" href="/steam" target="_blank" class="hover:light:text-[#231F20] hover:transition-colors duration-300">
         <div class="grid grid-cols-5 gap-3 w-full items-center">
             <SteamSolid class="w-6 h-6" />
             <div class="col-span-4 text-gray-500 dark:text-gray-100">
-                <p>Steam (i dont accept random friend requests)</p>
+                <p>Steam Profile</p>
             </div>
         </div>
     </Button>
-    <Button color="light" href="https://en.pronouns.page/@valbuilded" target="_blank" class="hover:text-[#c71585] hover:transition-colors duration-300">
+    <Button color="light" title="pronouns.page Card (English)" href="/pronounspage" target="_blank" class="hover:text-[#c71585] hover:transition-colors duration-300">
         <div class="grid grid-cols-5 gap-3 w-full items-center">
             <PronounsPageSolid class="w-6 h-6" />
             <div class="col-span-4 text-gray-500 dark:text-gray-100">
-                <p>pronouns.page card (english only for now)</p>
+                <p>pronouns.page Card (English)</p>
             </div>
         </div>
     </Button>
-    <Button color="light" href="https://www.twitch.tv/valbuildr" target="_blank" class="hover:text-[#9146FF] hover:transition-colors duration-300">
+    <Button color="light" title="Twitch Channel" href="/twitch" target="_blank" class="hover:text-[#9146FF] hover:transition-colors duration-300">
         <div class="grid grid-cols-5 gap-3 w-full items-center">
             <TwitchSolid class="w-6 h-6" />
             <div class="col-span-4 text-gray-500 dark:text-gray-100">
-                <p>Twitch (NEW SCHEDULE)</p>
+                <p>Twitch Channel</p>
             </div>
         </div>
     </Button>
-    <Button disabled color="light" href="https://www.valbuilds.xyz/" target="_blank" class="hover:text-violet-500 hover:transition-colors duration-300">
+    <Button disabled color="light" title="Main Website (coming soon)" href="/" target="_blank" class="hover:text-violet-500 hover:transition-colors duration-300">
         <div class="grid grid-cols-5 gap-3 w-full items-center">
             <GlobeSolid class="w-6 h-6" />
             <div class="col-span-4 text-gray-500 dark:text-gray-100">
-                <p>Main website (coming soon)</p>
+                <p>Main Website (coming soon)</p>
             </div>
         </div>
     </Button>
