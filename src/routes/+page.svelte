@@ -33,9 +33,9 @@
     <Button color="light" title="Mastodon/Fedi Profile" href="/fedi" target="_blank" class="hover:text-[#6364FF] hover:transition-colors duration-300"><MastodonSolid class="w-6 h-6" /></Button>
     <Button color="light" title="Github Profile" href="/github" target="_blank" class="hover:light:text-[#1A1F24] hover:transition-colors duration-300"><GithubSolid class="w-6 h-6" /></Button>
 
-    <Button color="light" href="https://tiktok.com/@valbuildr" target="_blank" class="hover:transition-colors duration-300"><TikTokSolid class="w-6 h-6" /></Button>
-    <Button color="light" href="https://steamcommunity.com/id/valbuilds" target="_blank" class="hover:light:text-[#231F20] hover:transition-colors duration-300"><SteamSolid class="w-6 h-6" /></Button>
-    <Button color="light" href="https://en.pronouns.page/@valbuilded" target="_blank" class="hover:text-[#c71585] hover:transition-colors duration-300"><PronounsPageSolid class="w-6 h-6" /></Button>
-    <Button color="light" href="https://www.twitch.tv/valbuildr" target="_blank" class="hover:text-[#9146FF] hover:transition-colors duration-300"><TwitchSolid class="w-6 h-6" /></Button>
-    <Button color="light" href="https://www.valbuilds.xyz/" target="_blank" disabled class="hover:text-violet-500 hover:transition-colors duration-300"><GlobeSolid class="w-6 h-6" /></Button>
+    <Button color="light" title="TikTok Profile" href="/tiktok" target="_blank" class="hover:transition-colors duration-300"><TikTokSolid class="w-6 h-6" /></Button>
+    <Button color="light" title="Steam Profile" href="/steam" target="_blank" class="hover:light:text-[#231F20] hover:transition-colors duration-300"><SteamSolid class="w-6 h-6" /></Button>
+    <Button color="light" title="pronouns.page Card (English)" href="/pronounspage" target="_blank" class="hover:text-[#c71585] hover:transition-colors duration-300"><PronounsPageSolid class="w-6 h-6" /></Button>
+    <Button color="light" title="Twitch Channel" href="/twitch" target="_blank" class="hover:text-[#9146FF] hover:transition-colors duration-300"><TwitchSolid class="w-6 h-6" /></Button>
+    <Button color="light" title="Main Website (coming soon)" href="/" target="_blank" disabled class="hover:text-violet-500 hover:transition-colors duration-300"><GlobeSolid class="w-6 h-6" /></Button>
 </div>
