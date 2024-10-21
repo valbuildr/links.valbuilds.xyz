@@ -14,7 +14,7 @@
     <!-- title, description, and image for embeds -->
     <title>valentine's discord server</title>
     <meta name="og:title" content="valentine's discord server" />
-    <meta name="og:image" content="/linksvalbuildsxyz.png" />
+    <meta name="twitter:card" content="/linksvalbuildsxyz.png" />
 </head>
 
 <div class="text-center">

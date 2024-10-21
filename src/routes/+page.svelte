@@ -1,8 +1,8 @@
 <head>
     <!-- title, description, and image for embeds -->
     <title>valentine's links</title>
-    <meta name="og:description" content="valbuildr's official platforms." />
-    <meta name="og:image" content="/linksvalbuildsxyz.png" />
+    <meta name="og:title" content="valentine's links" />
+    <meta name="twitter:card" content="/linksvalbuildsxyz.png" />
 </head>
 
 <script>

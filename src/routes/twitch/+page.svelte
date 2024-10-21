@@ -14,7 +14,7 @@
     <!-- title, description, and image for embeds -->
     <title>valentine's twitch channel</title>
     <meta name="og:title" content="valentine's twitch channel" />
-    <meta name="og:image" content="/linksvalbuildsxyz.png" />
+    <meta name="twitter:card" content="/linksvalbuildsxyz.png" />
 </head>
 
 <div class="text-center">
