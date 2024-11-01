@@ -14,6 +14,12 @@
     GlobeSolid,
     TwitterSolid,
   } from "flowbite-svelte-icons";
+
+  let bio = "a person that makes things on the internet sometimes.";
+
+  // profile picture by _____.
+  let pfpCreditText = "✦絢瀬 on picrew";
+  let pfpCreditLink = "https://picrew.me/en/image_maker/1904634";
 </script>
 
 <head>
@@ -38,11 +44,11 @@
 </div>
 
 <p>
-  a person that makes things on the internet sometimes.<br /><br />profile
-  picture by
-  <a class="hover:underline" href="https://picrew.me/en/image_maker/1904634"
-    >✦絢瀬 on picrew</a
-  >.
+  {bio}
+  {#if pfpCreditText}
+    <br /><br />profile picture by
+    <a class="hover:underline" href={pfpCreditLink}>{pfpCreditText}</a>.
+  {/if}
 </p>
 
 <hr class="my-2 border-gray-500 dark:border-gray-400" />
