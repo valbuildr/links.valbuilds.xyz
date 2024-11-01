@@ -6,8 +6,6 @@
     if (browser) {
         window.location.href = url;
     }
-
-    import { Spinner } from "flowbite-svelte";
 </script>
 
 <head>
@@ -18,7 +16,10 @@
 </head>
 
 <div class="text-center">
-    <h5 class="mt-2 text-xl font-medium text-gray-900 dark:text-white pb-2">Redirecting...</h5>
-    <Spinner size={8} />
-    <h6 class="text-md text-gray-700 dark:text-gray-300">If it isn't working, click <a href={url} class="hover:underline">here</a>.</h6>
-</div>
+    <h5 class="mt-2 text-xl font-medium text-black dark:text-white pb-2">
+      Redirecting...
+    </h5>
+    <h6 class="text-md text-gray-500 dark:text-gray-400">
+      If it isn't working, click <a href={url} class="hover:underline">here</a>.
+    </h6>
+  </div>
