@@ -25,6 +25,7 @@ export default {
           900: "#A5371B",
         },
         mint: "#99DDD7",
+        "dark-mint": "#64908C",
       },
     },
   },

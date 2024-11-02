@@ -6,6 +6,7 @@
     SteamSolid,
     PronounsPageSolid,
     TwitchSolid,
+    Button,
   } from "$lib";
   import {
     YoutubeSolid,
@@ -14,6 +15,12 @@
     GlobeSolid,
     TwitterSolid,
   } from "flowbite-svelte-icons";
+
+  let bio = "a person that makes things on the internet sometimes.";
+
+  // profile picture by _____.
+  let pfpCreditText = "✦絢瀬 on picrew";
+  let pfpCreditLink = "https://picrew.me/en/image_maker/1904634";
 </script>
 
 <head>
@@ -38,96 +45,60 @@
 </div>
 
 <p>
-  a person that makes things on the internet sometimes.<br /><br />profile
-  picture by
-  <a class="hover:underline" href="https://picrew.me/en/image_maker/1904634"
-    >✦絢瀬 on picrew</a
-  >.
+  {bio}
+  {#if pfpCreditText}
+    <br /><br />profile picture by
+    <a class="hover:underline" href={pfpCreditLink}>{pfpCreditText}</a>.
+  {/if}
 </p>
 
 <hr class="my-2 border-gray-500 dark:border-gray-400" />
 
 <div class="flex flex-col md:grid md:grid-cols-2 lg:grid-cols-3 gap-2">
-  <a
-    href="/youtube"
-    class="flex gap-2 items-center p-2 border border-mint hover:bg-mint hover:text-black hover:fill-black"
-    target="_blank"
-  >
+  <Button href="/youtube">
     <YoutubeSolid />
     <p>Youtube</p>
-  </a>
+  </Button>
 
-  <a
-    href="/discord"
-    class="flex gap-2 items-center p-2 border border-mint hover:bg-mint hover:text-black hover:fill-black"
-    target="_blank"
-  >
+  <Button href="/discord">
     <DiscordSolid />
     <p>Discord</p>
-  </a>
+  </Button>
 
-  <a
-    href="/bluesky"
-    class="flex gap-2 items-center p-2 border border-mint hover:bg-mint hover:text-black hover:fill-black"
-    target="_blank"
-  >
+  <Button href="/bluesky">
     <BlueskySolid />
     <p>Bluesky</p>
-  </a>
+  </Button>
 
-  <a
-    href="/mastodon"
-    class="flex gap-2 items-center p-2 border border-mint hover:bg-mint hover:text-black hover:fill-black"
-    target="_blank"
-  >
+  <Button href="/mastodon">
     <MastodonSolid />
     <p>Mastodon/Fedi</p>
-  </a>
+  </Button>
 
-  <a
-    href="/github"
-    class="flex gap-2 items-center p-2 border border-mint hover:bg-mint hover:text-black hover:fill-black"
-    target="_blank"
-  >
+  <Button href="/github">
     <GithubSolid />
     <p>Github</p>
-  </a>
+  </Button>
 
-  <a
-    href="/tiktok"
-    class="flex gap-2 items-center p-2 border border-mint hover:bg-mint hover:text-black hover:fill-black"
-    target="_blank"
-  >
+  <Button href="/tiktok">
     <TikTokSolid />
     <p>TikTok</p>
-  </a>
+  </Button>
 
-  <a
-    href="/steam"
-    class="flex gap-2 items-center p-2 border border-mint hover:bg-mint hover:text-black hover:fill-black"
-    target="_blank"
-  >
+  <Button href="/steam">
     <SteamSolid />
     <p>Steam</p>
-  </a>
+  </Button>
 
-  <a
-    href="/pronounspage"
-    class="flex gap-2 items-center p-2 border border-mint hover:bg-mint hover:text-black hover:fill-black"
-    target="_blank"
-  >
+  <Button href="/pronounspage">
     <PronounsPageSolid />
-    <p>Pronouns.page</p>
-  </a>
+    <p>Pronouns.page (English)</p>
+  </Button>
 
-  <a
-    href="/twitch"
-    class="flex gap-2 items-center p-2 border border-mint hover:bg-mint hover:text-black hover:fill-black"
-    target="_blank"
-  >
+  <Button href="/twitch">
     <TwitchSolid />
     <p>Twitch</p>
-  </a>
+  </Button>
 
   <div
     class="flex gap-2 items-center p-2 border lg:col-span-3 border-gray-500 dark:border-gray-400 fill-gray-500 dark:fill-gray-400 text-gray-500 dark:text-gray-400"

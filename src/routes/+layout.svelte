@@ -21,4 +21,5 @@
   <div class="flex flex-col flex-1 max-w-screen-xl mx-auto p-4">
     <slot />
   </div>
+  <a rel="me" class="hidden" href="https://wetdry.world/@valbuildr">Mastodon</a>
 </div>
