@@ -70,7 +70,7 @@
     <p>Bluesky</p>
   </Button>
 
-  <Button href="/mastodon">
+  <Button href="/fedi">
     <MastodonSolid />
     <p>Mastodon/Fedi</p>
   </Button>
