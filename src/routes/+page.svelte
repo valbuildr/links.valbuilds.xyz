@@ -100,12 +100,14 @@
     <p>Twitch</p>
   </Button>
 
-  <div
-    class="flex gap-2 items-center p-2 border lg:col-span-3 border-gray-500 dark:border-gray-400 fill-gray-500 dark:fill-gray-400 text-gray-500 dark:text-gray-400"
+  <a
+    class="flex gap-2 items-center p-2 border border-dark-mint dark:border-mint hover:bg-dark-mint dark:hover:bg-mint hover:text-white hover:fill-white hover:dark:text-black hover:dark:fill-black lg:col-span-3"
+    href="https://www.valbuilds.xyz"
+    target="_blank"
   >
     <GlobeSolid />
-    <p>Main website (coming soon)</p>
-  </div>
+    <p>Main website</p>
+  </a>
 </div>
 
 <hr class="my-2 border-gray-500 dark:border-gray-400" />
